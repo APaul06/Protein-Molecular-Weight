@@ -3,7 +3,7 @@
 library(ggplot2)
 
 # Source Protein_Weight.R
-source("C:\\Users\\alanp\\OneDrive - Temple University\\Desktop\\Projects\\Protein-Molecular-Weight\\Protein_Weight.R", local = FALSE)
+source("C:\\Users\\alanp\\OneDrive - Temple University\\Desktop\\Projects\\Protein-Molecular-Weight\\Protein_Weight.R", local = TRUE)
 
 # Input and plot
 repeat {
@@ -11,7 +11,7 @@ repeat {
   protein_sequence <- readline()
   
   #Source Amino_Plot.R
-  source("C:\\Users\\alanp\\OneDrive - Temple University\\Desktop\\Projects\\Protein-Molecular-Weight\\Amino_Plot.R", local = FALSE)
+  source("C:\\Users\\alanp\\OneDrive - Temple University\\Desktop\\Projects\\Protein-Molecular-Weight\\Amino_Plot.R", local = TRUE)
   
   if (tolower(protein_sequence) == "quit") {
     cat("Exiting the program. Goodbye!\n")
